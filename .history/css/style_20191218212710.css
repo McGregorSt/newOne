@@ -34,12 +34,6 @@ body {
 section header 
 */
 
-.fixed__header {
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-  background-color: white;
-}
 .header {
   height: 95px;
   margin: auto;
@@ -48,6 +42,9 @@ section header
   justify-content: space-between;
   align-items: center;
   padding: 0 180px;
+  position: fixed;
+  top: 00;
+  left: 0;
 }
 .header__logo {
   width: 125px;
@@ -68,7 +65,6 @@ section header
   padding: 0 0 0 54px;
   text-decoration: none;
   color: #000;
-  z-index: 5;
 }
 
 @media (max-width: 414px) {
@@ -101,7 +97,6 @@ section main
 .wrapper {
   display: flex;
   position: relative;
-  top: 95px;
 }
 .wrapper:after {
   content: "";

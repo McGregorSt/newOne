@@ -34,12 +34,6 @@ body {
 section header 
 */
 
-.fixed__header {
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-  background-color: white;
-}
 .header {
   height: 95px;
   margin: auto;
@@ -48,6 +42,8 @@ section header
   justify-content: space-between;
   align-items: center;
   padding: 0 180px;
+  position: fixed;
+  z-index: 5;
 }
 .header__logo {
   width: 125px;
@@ -63,6 +59,7 @@ section header
   display: flex;
   letter-spacing: 1.1px;
   font-size: 20px;
+  z-index: 5;
 }
 .header__menu--item a {
   padding: 0 0 0 54px;
@@ -101,7 +98,6 @@ section main
 .wrapper {
   display: flex;
   position: relative;
-  top: 95px;
 }
 .wrapper:after {
   content: "";

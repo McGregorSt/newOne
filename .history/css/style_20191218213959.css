@@ -37,9 +37,11 @@ section header
 .fixed__header {
   width: 100%;
   position: fixed;
-  z-index: 1000;
+  z-index: 51000;
   background-color: white;
+
 }
+
 .header {
   height: 95px;
   margin: auto;

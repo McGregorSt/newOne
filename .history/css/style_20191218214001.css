@@ -39,7 +39,9 @@ section header
   position: fixed;
   z-index: 1000;
   background-color: white;
+
 }
+
 .header {
   height: 95px;
   margin: auto;

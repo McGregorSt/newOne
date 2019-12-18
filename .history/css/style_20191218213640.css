@@ -34,12 +34,6 @@ body {
 section header 
 */
 
-.fixed__header {
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-  background-color: white;
-}
 .header {
   height: 95px;
   margin: auto;
@@ -48,6 +42,9 @@ section header
   justify-content: space-between;
   align-items: center;
   padding: 0 180px;
+  position: fixed;
+  z-index: 5;
+  background-color: ;
 }
 .header__logo {
   width: 125px;
