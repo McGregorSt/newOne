@@ -72,6 +72,9 @@ section header
 }
 
 @media (max-width: 414px) {
+  .fixed__header {
+    position: static;
+  }
   .header {
     height: 80px;
     padding: 0;
@@ -225,7 +228,6 @@ section main
   .main {
     height: 1080px;
     width: 100%;
-    top: 0;
   }
   .wrapper {
     flex-wrap: wrap;
@@ -500,7 +502,6 @@ section team
 @media (max-width: 414px) {
   .team {
     padding: 0;
-    top: 0;
   }
   .team__header {
     top: 62px;
@@ -667,7 +668,6 @@ section footer
 @media (max-width: 414px) {
   .footer {
     height: 740px;
-    top: 0;
   }
   .footer__main {
     padding: 60px 0 0 0;

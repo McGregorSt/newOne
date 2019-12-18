@@ -94,11 +94,9 @@ section main
 
 
 .main {
-  height: 1030px;
+  height: 935px;
   background: linear-gradient(90deg, rgba(56,69,181,1) 0%, rgba(37,49,149,1) 88%);
   color: white;
-  position: relative;
-  top: -5px;
 }
 .wrapper {
   display: flex;
@@ -225,7 +223,6 @@ section main
   .main {
     height: 1080px;
     width: 100%;
-    top: 0;
   }
   .wrapper {
     flex-wrap: wrap;
@@ -419,8 +416,6 @@ section team
   flex-direction: column;
   align-items: center;
   padding: 95px 0 50px 0;
-  position: relative;
-  top: -5px;
 }
 .team__header {
   font-size: 26px;
@@ -500,7 +495,6 @@ section team
 @media (max-width: 414px) {
   .team {
     padding: 0;
-    top: 0;
   }
   .team__header {
     top: 62px;
@@ -554,14 +548,13 @@ section footer
 
 
 .footer {
-  height: 475px;
+  height: 480px;
   color: white;
   background: linear-gradient(90deg, rgba(56,69,181,1) 50%, rgba(37,49,149,1) 99%);
   padding-top: 32px;
-  position: relative;
-  top: -5px;
 }
 .footer__main {
+  /* height: 410px; */
   display: flex;
   justify-content: space-between;
   padding: 0 180px;
@@ -667,7 +660,6 @@ section footer
 @media (max-width: 414px) {
   .footer {
     height: 740px;
-    top: 0;
   }
   .footer__main {
     padding: 60px 0 0 0;
