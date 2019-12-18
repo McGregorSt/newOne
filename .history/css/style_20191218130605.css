@@ -789,8 +789,8 @@ section footer
     padding: 0;
     text-align: center;
     position: relative;
-    top: 40px;
-    left: -5px;
+    top: 30px;
+    left: 20px;
     letter-spacing: 1px;
   }
 }

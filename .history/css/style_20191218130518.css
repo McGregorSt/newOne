@@ -766,15 +766,18 @@ section footer
     display: flex;
     flex-direction: column-reverse;
     font-size: 16px;
-    padding: 70px 5px;
+    padding: 60px 5px;
     /* align-content: center; */
 
   }
   .footer__menu__item, .footer__menu__item > a {
     width: 80%;
     padding: 0;
+    position: relative;
+    top: 5px;
   }
   .footer__menu__item:nth-child(4)  {
+    back
     width: 50%;
   }
   .footer__menu--menu {
@@ -789,8 +792,8 @@ section footer
     padding: 0;
     text-align: center;
     position: relative;
-    top: 40px;
-    left: -5px;
+    top: 30px;
+    left: 20px;
     letter-spacing: 1px;
   }
 }

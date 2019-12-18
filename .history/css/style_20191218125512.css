@@ -734,15 +734,11 @@ section footer
   .footer__contact {
     width: 90%;
     position: relative;
-    top: 40px;
   }
-  .footer__contact--span {
+  .footer__contact > span {
     top: 55px;
     left: 3px;
     letter-spacing: -0.4px;
-  }
-  .footer__contact--span:first-child {
-    top: 70px;
   }
   /* .footer__main > a {
     position: relative;
@@ -766,13 +762,12 @@ section footer
     display: flex;
     flex-direction: column-reverse;
     font-size: 16px;
-    padding: 70px 5px;
+    padding: 60px 5px;
     /* align-content: center; */
 
   }
   .footer__menu__item, .footer__menu__item > a {
     width: 80%;
-    padding: 0;
   }
   .footer__menu__item:nth-child(4)  {
     width: 50%;
@@ -789,8 +784,8 @@ section footer
     padding: 0;
     text-align: center;
     position: relative;
-    top: 40px;
-    left: -5px;
+    top: 30px;
+    left: 20px;
     letter-spacing: 1px;
   }
 }
