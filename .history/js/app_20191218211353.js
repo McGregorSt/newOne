@@ -24,7 +24,6 @@ $(document).ready(function() {
     hours: initialWatch.hours,
     days: initialWatch.days
   }
-
   const seconds = $('.timer__item--ss')
   const minutes = $('.timer__item--mm')
   const hours = $('.timer__item--hh')
@@ -44,6 +43,7 @@ $(document).ready(function() {
           countDownWatch.hours = 23
         }
       }
+      
     } else if (
       countDownWatch.days === 0 &&
       countDownWatch.hours === 0 &&
@@ -52,8 +52,8 @@ $(document).ready(function() {
       ) {
         clearInterval(sec)
       }
-      
-      seconds.html(countDownWatch.seconds < 10 ? `0${countDownWatch.seconds}s` : `${countDownWatch.seconds}s`)
+
+//      seconds.html(countDownWatch.seconds < 10 ? `0${countDownWatch.seconds}s` : `${countDownWatch.seconds}s`)
       minutes.html(countDownWatch.minutes < 10 ? `0${countDownWatch.minutes}m` : `${countDownWatch.minutes}m`)
       hours.html(countDownWatch.hours < 10 ? `0${countDownWatch.hours}h` : `${countDownWatch.hours}h`)
       days.html(countDownWatch.days < 10 ? `0${countDownWatch.days}d` : `${countDownWatch.days}d`)
@@ -71,4 +71,5 @@ $(document).ready(function() {
       termsOfUse.innerText = 'FAQ'
       contactUs[0].innerText = 'hello@stay.io'
     }
+    console.log($('.footer__menu__item'))
 })  

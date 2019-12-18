@@ -52,7 +52,8 @@ $(document).ready(function() {
       ) {
         clearInterval(sec)
       }
-      
+
+
       seconds.html(countDownWatch.seconds < 10 ? `0${countDownWatch.seconds}s` : `${countDownWatch.seconds}s`)
       minutes.html(countDownWatch.minutes < 10 ? `0${countDownWatch.minutes}m` : `${countDownWatch.minutes}m`)
       hours.html(countDownWatch.hours < 10 ? `0${countDownWatch.hours}h` : `${countDownWatch.hours}h`)
